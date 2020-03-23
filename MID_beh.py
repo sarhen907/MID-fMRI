@@ -117,7 +117,7 @@ def score(log, outpath):
                     elif row.level == "large":
                         lose_large_accuracy_li.append(row.accuracy)
                         if row.accuracy == 1:
-                            lose_large_RT_li.append(row.accuracy)
+                            lose_large_RT_li.append(row.rt)
 
                 elif row.condition == "neutral":
 
